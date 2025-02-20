@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/19625323/thumb/1.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ad98a4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.otp-box {
+    font-size: 2rem;
+    font-weight: sensarif;
+    margin: 20px 0;
+    padding: 5px;
+    background-color: #cfc2c9;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 1rem;
+    background-color: #4c6faf;
+    color: white;
+    border: radius;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4569a0;
+}
+
+
